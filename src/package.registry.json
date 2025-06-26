@@ -1,0 +1,635 @@
+{
+  "version": "2.0.0",
+  "source": "package",
+  "metadata": {
+    "version": "2.0.0",
+    "description": "package 级资源注册表",
+    "createdAt": "2025-06-18T10:00:59.258Z",
+    "updatedAt": "2025-06-18T10:00:59.263Z",
+    "resourceCount": 47
+  },
+  "resources": [
+    {
+      "id": "assistant",
+      "source": "package",
+      "protocol": "role",
+      "name": "Assistant 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/assistant/assistant.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.259Z",
+        "updatedAt": "2025-06-18T10:00:59.259Z",
+        "scannedAt": "2025-06-18T10:00:59.259Z"
+      }
+    },
+    {
+      "id": "assistant",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Assistant 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/assistant/thought/assistant.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "assistant",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Assistant 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/assistant/execution/assistant.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "frontend-developer",
+      "source": "package",
+      "protocol": "role",
+      "name": "Frontend Developer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/frontend-developer/frontend-developer.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "frontend-developer",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Frontend Developer 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/frontend-developer/thought/frontend-developer.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "code-quality",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Code Quality 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/java-backend-developer/execution/code-quality.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "frontend-developer",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Frontend Developer 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/frontend-developer/execution/frontend-developer.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "technical-architecture",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Technical Architecture 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/frontend-developer/execution/technical-architecture.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "user-experience",
+      "source": "package",
+      "protocol": "execution",
+      "name": "User Experience 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/frontend-developer/execution/user-experience.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "wechat-miniprogram-development",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Wechat Miniprogram Development 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/frontend-developer/execution/wechat-miniprogram-development.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "java-backend-developer",
+      "source": "package",
+      "protocol": "role",
+      "name": "Java Backend Developer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/java-backend-developer/java-backend-developer.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "java-backend-developer",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Java Backend Developer 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/java-backend-developer/thought/java-backend-developer.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "database-design",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Database Design 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/java-backend-developer/execution/database-design.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "java-backend-developer",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Java Backend Developer 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/java-backend-developer/execution/java-backend-developer.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "spring-ecosystem",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Spring Ecosystem 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/java-backend-developer/execution/spring-ecosystem.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "system-architecture",
+      "source": "package",
+      "protocol": "execution",
+      "name": "System Architecture 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/java-backend-developer/execution/system-architecture.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.260Z",
+        "updatedAt": "2025-06-18T10:00:59.260Z",
+        "scannedAt": "2025-06-18T10:00:59.260Z"
+      }
+    },
+    {
+      "id": "nuwa",
+      "source": "package",
+      "protocol": "role",
+      "name": "Nuwa 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/nuwa/nuwa.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "role-creation",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Role Creation 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/nuwa/thought/role-creation.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "dpml-authoring",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Dpml Authoring 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/nuwa/execution/dpml-authoring.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "role-design-patterns",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Role Design Patterns 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/nuwa/execution/role-design-patterns.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "role-generation",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Role Generation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/nuwa/execution/role-generation.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "visualization-enhancement",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Visualization Enhancement 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/nuwa/execution/visualization-enhancement.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "product-manager",
+      "source": "package",
+      "protocol": "role",
+      "name": "Product Manager 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/product-manager/product-manager.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.261Z",
+        "updatedAt": "2025-06-18T10:00:59.261Z",
+        "scannedAt": "2025-06-18T10:00:59.261Z"
+      }
+    },
+    {
+      "id": "product-manager",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Product Manager 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/product-manager/thought/product-manager.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "market-analysis",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Market Analysis 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/product-manager/execution/market-analysis.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "product-manager",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Product Manager 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/product-manager/execution/product-manager.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "user-research",
+      "source": "package",
+      "protocol": "execution",
+      "name": "User Research 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/product-manager/execution/user-research.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "sean",
+      "source": "package",
+      "protocol": "role",
+      "name": "Sean 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/sean/sean.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "sean",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Sean 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/sean/thought/sean.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "sean-decision-framework",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Sean Decision Framework 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/sean/execution/sean-decision-framework.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "xiaohongshu-marketer",
+      "source": "package",
+      "protocol": "role",
+      "name": "Xiaohongshu Marketer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/xiaohongshu-marketer.role.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "xiaohongshu-marketer",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Xiaohongshu Marketer 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/thought/xiaohongshu-marketer.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "brand-marketing",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Brand Marketing 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/brand-marketing.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "community-building",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Community Building 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/community-building.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "content-creation",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Content Creation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/content-creation.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "content-optimization",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Content Optimization 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/content-optimization.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "data-analytics",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Data Analytics 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/data-analytics.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "ecommerce-conversion",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Ecommerce Conversion 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/ecommerce-conversion.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "performance-optimization",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Performance Optimization 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/performance-optimization.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "platform-compliance",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Platform Compliance 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/platform-compliance.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "team-collaboration",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Team Collaboration 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/team-collaboration.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "user-operation",
+      "source": "package",
+      "protocol": "execution",
+      "name": "User Operation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/user-operation.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "xiaohongshu-marketer",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Xiaohongshu Marketer 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/domain/xiaohongshu-marketer/execution/xiaohongshu-marketer.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.262Z",
+        "updatedAt": "2025-06-18T10:00:59.262Z",
+        "scannedAt": "2025-06-18T10:00:59.262Z"
+      }
+    },
+    {
+      "id": "dacp-email-sending",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Dacp Email Sending 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/core/dacp-email-sending.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.263Z",
+        "updatedAt": "2025-06-18T10:00:59.263Z",
+        "scannedAt": "2025-06-18T10:00:59.263Z"
+      }
+    },
+    {
+      "id": "dacp-service-calling",
+      "source": "package",
+      "protocol": "execution",
+      "name": "Dacp Service Calling 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@package://prompt/core/dacp-service-calling.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.263Z",
+        "updatedAt": "2025-06-18T10:00:59.263Z",
+        "scannedAt": "2025-06-18T10:00:59.263Z"
+      }
+    },
+    {
+      "id": "recall",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Recall 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/core/recall.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.263Z",
+        "updatedAt": "2025-06-18T10:00:59.263Z",
+        "scannedAt": "2025-06-18T10:00:59.263Z"
+      }
+    },
+    {
+      "id": "remember",
+      "source": "package",
+      "protocol": "thought",
+      "name": "Remember 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@package://prompt/core/remember.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-18T10:00:59.263Z",
+        "updatedAt": "2025-06-18T10:00:59.263Z",
+        "scannedAt": "2025-06-18T10:00:59.263Z"
+      }
+    }
+  ],
+  "stats": {
+    "totalResources": 47,
+    "byProtocol": {
+      "role": 7,
+      "thought": 9,
+      "execution": 31
+    },
+    "bySource": {
+      "package": 47
+    }
+  }
+}

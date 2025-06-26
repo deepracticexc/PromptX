@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "promptx": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\YOUR_USERNAME\\WorkSpaces\\DeepracticeProjects\\PromptX\\src\\bin\\promptx.js",
+        "mcp-server"
+      ]
+    }
+  }
+}
