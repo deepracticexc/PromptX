@@ -157,7 +157,7 @@ When you call the `promptx_...` series of tools, your AI application sends the r
 
 ### New to MCP? [Watch MCP Tutorial on BiliBili](https://www.bilibili.com/video/BV1HFd6YhErb)
 
-All AI clients that support the MCP protocol can use PromptX. This includes major applications like **Claude Desktop**, **Cursor**, **Windsurf**, **Cline**, **Zed**, **Continue**, and many more mainstream AI development tools that are integrating MCP support.
+All AI clients that support the MCP protocol can use PromptX. This includes major applications like **[Trae](https://www.trae.cn/?utm_source=community&utm_medium=CPA_jiangshan&utm_campaign=deepracticex)**, **Claude Desktop**, **Cursor**, **Windsurf**, **Cline**, **Zed**, **Continue**, and many more mainstream AI development tools that are integrating MCP support.
 
 **🎯 After configuration, your AI application will automatically gain 6 professional tools:**
 - `promptx_init`: 🏗️ **System Initialization** - Automatically prepares the working environment.

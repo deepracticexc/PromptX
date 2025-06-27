@@ -103,7 +103,7 @@ PromptX 目前处于 **初始开发阶段**，我们正在积极完善功能和�
 
 ### 不知道MCP是怎么？  [点击查看 MCP幼儿园教程 BiliBili](https://www.bilibili.com/video/BV1HFd6YhErb)
 
-目前所有支持 MCP 协议的 AI 客户端都可以使用 PromptX。主要包括：**Claude Desktop**、**Cursor**、**Windsurf**、**Cline**、**Zed**、**Continue** 等主流 AI 编程工具，以及更多正在接入中的应用。
+目前所有支持 MCP 协议的 AI 客户端都可以使用 PromptX。主要包括：**[Trae](https://www.trae.cn/?utm_source=community&utm_medium=CPA_jiangshan&utm_campaign=deepracticex)**、**Claude Desktop**、**Cursor**、**Windsurf**、**Cline**、**Zed**、**Continue** 等主流 AI 编程工具，以及更多正在接入中的应用。
 
 ---
 
@@ -280,7 +280,6 @@ graph TD
 扫码加入技术交流群：
 
 <img src="assets/qrcode.jpg" alt="技术交流群" width="200">
-
 ---
 
 ## 📄 **许可证**
