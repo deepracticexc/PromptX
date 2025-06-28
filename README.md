@@ -369,6 +369,9 @@ AI不仅仅是技术工具，更是重新定义生活方式的革命力量。我
 #### **🎓 AI教育专家团队** - 多角色协作生成高质量系统性教育内容
 **作者：** 社区教育工作者 | **链接：** [创新分享](https://mp.weixin.qq.com/s/8mAq1r5kqAOJM1bmIWlYbQ)
 
+#### **⚖️ AI模拟法庭** - 沉浸式庭审临场感体验，实战级5.7万字笔录及判决书临摹
+**作者：** 社区专业律师 | **链接：** [创新分享](https://mp.weixin.qq.com/s/gscpUqiApktaSO3Uio5Iiw) | [GitHub](https://github.com/jiangxia/ai-trial)
+
 ---
 
 ### 🌟 **分享你的案例**
