@@ -9,6 +9,7 @@
     <a href="https://www.npmjs.com/package/dpml-prompt"><img src="https://img.shields.io/npm/v/dpml-prompt?color=orange&logo=npm" alt="npm version"/></a>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/Deepractice/PromptX?color=blue" alt="License"/></a>
     <a href="https://github.com/Deepractice/PromptX/actions"><img src="https://img.shields.io/github/actions/workflow/status/Deepractice/PromptX/ci.yml?label=CI&logo=github" alt="CI Status"/></a>
+    <a href="https://smithery.ai/server/dpml-prompt"><img src="https://smithery.ai/badge/dpml-prompt" alt="Smithery Installations"/></a>
   </p>
 
   <p>
@@ -100,6 +101,13 @@ PromptX 目前处于 **初始开发阶段**，我们正在积极完善功能和�
 
 📖 **[完整安装配置指南](https://github.com/Deepractice/PromptX/wiki/PromptX-MCP-Install)** - 包含各种客户端的详细配置方法和故障排除
 
+### Installing via Smithery
+
+To install dpml-prompt for Claude Desktop automatically via [Smithery](https://smithery.ai/server/dpml-prompt):
+
+```bash
+npx -y @smithery/cli install dpml-prompt --client claude
+```
 
 ### 不知道MCP是怎么？  [点击查看 MCP幼儿园教程 BiliBili](https://www.bilibili.com/video/BV1HFd6YhErb)
 
